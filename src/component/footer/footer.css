@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Kanit:wght@300&family=PT+Sans+Narrow&display=swap');
+
+.footer{
+    width: 100%;
+    width: 1200px;
+    font-size: 15px;
+    background-color: rgb(2, 2, 58);
+    font-family: 'Cormorant SC', serif;
+
+  }
+  
+  .fLists{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  .heading{
+    margin-bottom:12px ;
+    color: #878787;
+
+  }
+  .fListItem{
+    margin-bottom: 10px;
+    color:white;
+    cursor: pointer;
+    
+  }
+  .fListItem:hover{
+    text-decoration-line:underline;
+  }
+  .fText{
+
+    color: cyan;
+  }
